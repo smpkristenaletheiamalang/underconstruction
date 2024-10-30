@@ -6,93 +6,97 @@
     <link rel="icon" href="/assets/img/logo.png"
         type="image/x-icon" />
     <title>Kegiatan Sekolah | SMP Kristen Aletheia Malang</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!-- Navbar -->
-    <div class="drawer">
-        <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
-        <div class="drawer-content flex flex-col">
-          <!-- Navbar -->
-          <div class="navbar bg-base-300 w-full">
-            <div class="flex-none lg:hidden">
-              <label for="my-drawer-3" aria-label="open sidebar" class="btn btn-square btn-ghost">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  class="inline-block h-6 w-6 stroke-current">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-              </label>
+  <!-- TOP NAV -->
+  <nav class="navbar navbar-dark sticky-top" style="background-color: rgb(67, 83, 34);">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="#">
+        <img src="/assets/img/logo.png" alt="" width="40" class="d-inline-block align-text-top">
+      </a>
+      <div>
+        <h6 class="text-light" style="margin-top: 10px;">SMP KRISTEN ALETHEIA MALANG</h6>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENT -->
+  
+  
+    <!-- BOTTOM FOOTER -->
+    <div class="card" style="background-color: #626F47; padding-bottom: 60px; color: #FEFAE0;">
+      <div class="card-body">
+        <p class="card-title text-center">Copyright © 2024</p>
+        <p class="card-title text-center" style="font-weight: bold;">SMP Kristen Aletheia Malang</p>
+        <p class="card-title text-center">Jl. Ir. H. Juanda 06, Jodipan, Malang, Jawa Timur.</p>
+        <p class="card-title text-center">(0341)-366048 <br> <em>smpkristenaletheiamalang@gmail.com</em></p>
+        <p class="card-text">
+          <div class="row text-center">
+            <div class="col text-center">
+              <a href="http://wa.me/+628125254548" style="color: #FEFAE0;">
+                <i class="fa-brands fa-whatsapp fs-2" ></i>
+              </a>
             </div>
-            
-            <div class="mx-2 flex-1 px-2">
-                <img src="/assets/img/logo.png" alt="" width="40px" style="margin-right: 20px;">
-                <p style="font-weight: bold; font-style: italic;">SMP Kristen Aletheia Malang</p></div>
-            <div class="hidden flex-none lg:block">
-              <ul class="menu menu-horizontal">
-                <!-- Navbar menu content here -->
-                <li><a href="/index.html">Beranda</a></li>
-                <li><a href="/pages/profil/">Profil Sekolah</a></li>
-                <li><a href="/pages/galeri/">Galeri</a></li>
-                <li><a href="/pages/kegiatan/">Kegiatan Sekolah</a></li>
-                <li><a href="/pages/info/">Info Pendaftaran & PPDB</a></li>
-              </ul>
+            <div class="col text-center">
+              <a href="https://www.instagram.com/smp_skamalang" style="color: #FEFAE0;">
+                <i class="fa-brands fa-square-instagram fs-2" ></i>
+              </a>
+            </div>
+            <div class="col text-center">
+              <a href="https://www.tiktok.com/@smp_skamalang" style="color: #FEFAE0;">
+                <i class="fa-brands fa-tiktok fs-2" ></i>
+              </a>
+            </div>
+            <div class="col text-center">
+              <a href="https://www.youtube.com/channel/UCpPzo6eaAICl5Y3w2K_VgXg" style="color: #FEFAE0;">
+                <i class="fa-brands fa-youtube fs-2" ></i>
+              </a>
+            </div>
+            <div class="col text-center">
+              <a href="mailto:smpkristenaletheiamalang@gmail.com" style="color: #FEFAE0;">
+                <i class="fa-solid fa-envelope fs-2" ></i>
+              </a>
             </div>
           </div>
-          <!-- Page content here -->
-          <img src="/assets/img/UNDER Construction.jpg" alt="" width="100%">
-        </div>
-        <div class="drawer-side">
-          <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
-          <ul class="menu bg-base-200 min-h-full w-80 p-4">
-            <!-- Sidebar content here -->
-            <li><a href="/index.html">Beranda</a></li>
-            <li><a href="/pages/profil/">Profil Sekolah</a></li>
-            <li><a href="/pages/galeri/">Galeri</a></li>
-            <li><a href="/pages/kegiatan/">Kegiatan Sekolah</a></li>
-            <li><a href="/pages/info/">Info Pendaftaran & PPDB</a></li>
-          </ul>
+        </p>
+      </div>
+    </div>
+  <!-- BOTTOM NAV -->
+  <nav class="navbar fixed-bottom navbar-light" style="background-color: rgb(67, 83, 34); padding-top: 15px;">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <a href="/index.html" style="color:#FEFAE0; text-decoration: none; font-size: small;">
+              <i class="fa-solid fa-house fs-4"></i><br>
+              Beranda</a>
+          </div>
+          <div class="col">
+            <a href="/pages/profil/" style="color: #FEFAE0; text-decoration: none; font-size: small;">
+              <i class="fa-solid fa-circle-info fs-4"></i><br>
+              Profil</a>
+          </div>
+          <div class="col">
+            <a href="/pages/galeri/" style="color: #FEFAE0; text-decoration: none; font-size: small;">
+              <i class="fa-solid fa-image fs-4"></i><br>
+            Galeri</a>
+          </div>
+          <div class="col">
+            <a href="/pages/kegiatan/" style="color: #FEFF9F; text-decoration: none; font-size: small;">
+              <i class="fa-solid fa-person-running fs-4"></i><br>
+              Kegiatan</a>
+          </div>
+          <div class="col">
+            <a href="https://linktr.ee/smpaletheiamalang" style="color: #FEFAE0; text-decoration: none; font-size: small;">
+              <i class="fa-solid fa-circle-check fs-4"></i><br>
+              PPDB</a>
+          </div>
         </div>
       </div>
-    <!-- Content -->
-    <!-- Footer -->
-      <footer class="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
-        <aside class="grid-flow-col items-center">
-          <p>
-            <strong>SMP Kristen Aletheia Malang</strong>
-            <br />
-            Jl. Ir. H. Juanda 06, Jodipan, Malang
-            <br>
-            <em>(0341)-366048  smpkristenaletheiamalang@gmail.com</em>
-          </p>
-        </aside>
-        <nav class="md:place-self-center md:justify-self-end">
-          <div class="grid grid-flow-col gap-4 text-xl">
-            <a href="http://wa.me/+628125254548">
-                <i class="fa-brands fa-square-whatsapp"></i>
-            </a>
-            <a href="https://www.instagram.com/smp_skamalang">
-                <i class="fa-brands fa-square-instagram"></i>
-            </a>
-            <a href="https://www.tiktok.com/@smp_skamalang">
-                <i class="fa-brands fa-tiktok"></i>
-            </a>
-            <a href="https://www.youtube.com/channel/UCpPzo6eaAICl5Y3w2K_VgXg">
-                <i class="fa-brands fa-youtube"></i>
-            </a>
-            <a href="mailto:smpkristenaletheiamalang@google.com">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
-          </div>
-        </nav>
-      </footer>
+    </div>
+  </nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
 </body>
 </html>
